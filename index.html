@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johanna Sandström — Fullstack Developer & Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="nav-wrapper">
+            <a href="#hero" class="logo">JS<span>//</span></a>
+            <nav class="nav-links">
+                <a href="#om">Om</a>
+                <a href="#stack">Stack</a>
+                <a href="#projekt">Projekt</a>
+                <a href="#kontakt">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero-sektion  -->
+        <section id="hero" class="hero">
+            <div class="hero-container">
+                <div class="hero-content-box frosted-card">
+                    <div class="hero-tag">
+                        <span class="pulse-dot"></span> Tillgänglig för LIA / Jobb
+                    </div>
+                    <h1 class="hero-title">
+                        Kod, design <br>och <span class="gradient-text">användarfokus.</span>
+                    </h1>
+                    <p class="hero-desc">
+                        Hej! Jag är <strong>Johanna Sandström</strong>, en nyfiken utvecklarstudent med bakgrund inom informationsdesign. Snart kan jag titulera mig som Fullstack-Javascriptutvecklare. Vad brinner jag lite extra för? Jag gillar att skapa digitala lösningar som är lika snygga och tillgängliga som de är funktionella. 
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projekt" class="btn-primary">Utforska projekt</a>
+                        <a href="#kontakt" class="btn-secondary">Kontakta mig</a>
+                    </div>
+                </div>
+
+                <!-- Koddelen som rullar -->
+                <div class="hero-code-box frosted-card">
+                    <div class="code-content">
+                        <pre><code id="typed-code"></code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- Bakgrund -->
+        <section id="om" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number"></span>
+                    <h2>Bakgrund</h2>
+                </div>
+                <div class="about-grid">
+                    <!-- Vänstra rutan med info för bakgrund -->
+                    <div class="about-text-box frosted-card inner-box">
+                        <p class="lead-text">
+                            För mig handlar programmering om mer än bara kod – det handlar om att skapa lösningar som är enkla att förstå och använda.
+                        </p>
+                        <p>
+                            Genom min utbildning på <strong>Chas Academy</strong> utvecklar jag mina färdigheter inom frontend och webb, med ett stort intresse för tillgänglighet och användarupplevelse.
+                        </p>
+                    </div>
+
+                    <!-- Högersidan: tidslinjen -->
+                    <div class="about-timeline-clean">
+                        <h3>Det här har jag med mig i bagaget:</h3>
+                        <ul class="journey-list">
+                            <li>
+                                <span class="journey-dot"></span>
+                                <div>
+                                    <strong>Informationsdesign & UX</strong>
+                                    <p>Fokus på visuell kommunikation, användarupplevelse och att göra komplexa strukturer enkla.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="journey-dot"></span>
+                                <div>
+                                    <strong>Fullstack JavaScript</strong>
+                                    <p>Praktisk erfarenhet av modern webbutveckling med JavaScript, React, Node.js och databaser.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="journey-dot"></span>
+                                <div>
+                                    <strong>Människa-dator-interaktion</strong>
+                                    <p>Ett genuint driv för tillgängliga gränssnitt och kod som fungerar för alla användare.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack -->
+        <section id="stack" class="section dark-surface">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number"></span>
+                    <h2>Teknisk Verktygslåda</h2>
+                </div>
+                <div class="stack-grid">
+                    
+                    <!-- Frontend -->
+                    <div class="stack-card frosted-card">
+                        <div class="stack-icon-wrapper">
+                            <svg class="stack-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Frontend</h3>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>HTML5</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="stack-card frosted-card">
+                        <div class="stack-icon-wrapper">
+                            <svg class="stack-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                            </svg>
+                        </div>
+                        <h3>Backend</h3>
+                        <div class="tags">
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>REST-API:er</span>
+                        </div>
+                    </div>
+
+                    <!-- Design & Övrigt -->
+                    <div class="stack-card frosted-card">
+                        <div class="stack-icon-wrapper">
+                            <svg class="stack-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                <path d="M2 2l7.586 7.586"></path>
+                                <circle cx="11" cy="11" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h3>Design & Övrigt</h3>
+                        <div class="tags">
+                            <span>MongoDB</span>
+                            <span>Git / GitHub</span>
+                            <span>Figma</span>
+                            <span>WCAG</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projekt-sektion -->
+        <section id="projekt" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number"></span>
+                    <h2>Utvalda Projekt</h2>
+                </div>
+                <div class="projects-grid">
+                    
+                    <!-- Projekt 1 -->
+                    <article class="project-card frosted-card">
+                        <div class="project-image-wrapper">
+                            <div class="project-img-scroll-container">
+                                <img src="screenshot-productivitysystem.png" alt="Produktivitetssystem - Analys och historik" class="project-img">
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <span class="project-tag">Teamprojekt / Web App</span>
+                            <h3>Produktivitetssystem</h3>
+                            <p>Ett teamprojekt som utvecklats till en modern produktivitetsapp. Jag har haft huvudansvaret för att bygga ut analys- och historiksidorna för att följa upp och visualisera data.</p>
+                            
+                            <div class="tags">
+                                <span>JavaScript</span>
+                                <span>Teamwork</span>
+                                <span>Data & Visualisering</span>
+                                <span>Vercel</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="https://github.com/NM-Codes/prod-system/tree/dev" target="_blank" class="text-link">GitHub →</a>
+                                <a href="https://productivity-system-zeta.vercel.app/" target="_blank" class="text-link">Live Demo →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projekt 2 -->
+                    <article class="project-card frosted-card">
+                        <div class="project-content">
+                            <span class="project-tag">Frontend</span>
+                            <h3>Projekt 2</h3>
+                            <p></p>
+                            <div class="tags">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/ditt-användarnamn/repo2" target="_blank" class="text-link">GitHub →</a>
+                                <a href="#" target="_blank" class="text-link">Live Demo →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projekt 3  -->
+                    <article class="project-card frosted-card">
+                        <div class="project-content">
+                            <span class="project-tag">Design System</span>
+                            <h3>Projekt 3</h3>
+                            <p></p>
+                            <div class="tags">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="text-link">GitHub →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        
+                <!-- Kontakt -->
+                    <section id="kontakt" class="section dark-surface contact-section">
+                        <div class="container text-center">
+                            <span class="section-number center-num"></span>
+                            <h2 class="cta-title">Nya utmaningar, en spännande idé eller bara sugen på att <span class="gradient-text">prata kod?</span> Låt oss höras!</h2>
+                            <p class="cta-desc">Jag söker nya utmaningar, LIA-platser och spännande projekt. Skicka ett meddelande direkt här eller nå mig via LinkedIn!</p>
+                
+                <!-- Kontaktformulär med Formspree -->
+                <form class="contact-form frosted-card" action="https://formspree.io/f/xqpekevr" method="POST">
+                    <div class="form-group">
+                        <label for="name">Ditt namn</label>
+                        <input type="text" id="name" name="name" required placeholder="t.ex. Anna Andersson">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Din e-postadress</label>
+                        <input type="email" id="email" name="email" required placeholder="anna@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Meddelande</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Skriv ett meddelande..."></textarea>
+                    </div>
+
+                    <!-- Knappar i formulär -->
+                    <div class="form-buttons">
+                        <button type="submit" class="btn-primary form-submit">Skicka meddelande</button>
+                        <a href="https://www.linkedin.com/in/johanna-sandstrom-426664338" target="_blank" class="btn-secondary linkedin-btn">LinkedIn</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Johanna Sandström.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
